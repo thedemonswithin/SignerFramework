@@ -1,0 +1,58 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Signer
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CommonCrypto
+import Foundation
+import Security.SecKey
+import Security
+@_exported import Signer
+import Swift
+import _Concurrency
+import _StringProcessing
+@_inheritsConvenienceInitializers @objc public class SignerKeyProviderAssembly : ObjectiveC.NSObject {
+  @objc public func make() -> Signer.SignerKeyProvider
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(SignerKeyProviderImp) public class SignerKeyProviderImp : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension Signer.SignerKeyProviderImp : Signer.SignerKeyProvider {
+  @objc dynamic public func publicKey() -> Foundation.Data?
+  @objc dynamic public func publicKeyAlgorithmName() -> Swift.String
+  @objc dynamic public func publicKeyAlgorithmNameSHA256HashBase64String() -> Swift.String?
+  @objc dynamic public func keyPair() -> Signer.SignerKeyPair?
+}
+@_hasMissingDesignatedInitializers public class SignerKey {
+  final public let keyData: Foundation.Data
+  final public let keyReferenceInKeychain: Security.SecKey
+  @objc deinit
+}
+public class SignerFactory {
+  public init()
+  public func makeSHA256Signer() -> Signer.SignerProtocol
+  public func makeSHA1Signer() -> Signer.SignerProtocol
+  @objc deinit
+}
+@objc(SignerProtocol) public protocol SignerProtocol {
+  @objc func signature(for data: Foundation.Data) -> Foundation.Data?
+}
+@objc(SignerKeyProvider) public protocol SignerKeyProvider {
+  @objc func publicKey() -> Foundation.Data?
+  @objc func publicKeyAlgorithmName() -> Swift.String
+  @objc func publicKeyAlgorithmNameSHA256HashBase64String() -> Swift.String?
+  @objc func keyPair() -> Signer.SignerKeyPair?
+}
+@_hasMissingDesignatedInitializers public class SignerKeyStoreImp {
+  @objc deinit
+}
+@objc public class SignerKeyPair : ObjectiveC.NSObject {
+  final public let publicKey: Signer.SignerKey
+  final public let privateKey: Signer.SignerKey
+  @objc convenience public init(publicKeyData: Foundation.Data, publicKeyReferenceInKeychain: Security.SecKey, privateKeyData: Foundation.Data, privateKeyReferenceInKeychain: Security.SecKey)
+  public init(publicKey: Signer.SignerKey, privateKey: Signer.SignerKey)
+  @objc public static func makeWith(publicKeyData: Foundation.Data?, publicKeyReferenceInKeychain: Security.SecKey?, privateKeyData: Foundation.Data?, privateKeyReferenceInKeychain: Security.SecKey?) -> Signer.SignerKeyPair?
+  @objc deinit
+}

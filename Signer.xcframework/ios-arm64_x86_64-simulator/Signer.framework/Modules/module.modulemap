@@ -1,0 +1,11 @@
+framework module Signer {
+  umbrella header "Signer.h"
+
+  export *
+  module * { export * }
+}
+
+module Signer.Swift {
+  header "Signer-Swift.h"
+  requires objc
+}

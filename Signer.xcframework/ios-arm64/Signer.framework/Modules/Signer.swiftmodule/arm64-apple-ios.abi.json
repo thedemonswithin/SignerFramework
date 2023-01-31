@@ -1,0 +1,1312 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Signer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "Signer"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Signer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "Signer"
+      },
+      {
+        "kind": "Import",
+        "name": "Security.SecKey",
+        "printedName": "Security.SecKey",
+        "declKind": "Import",
+        "moduleName": "Signer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Signer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SignerKeyProviderAssembly",
+        "printedName": "SignerKeyProviderAssembly",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "make",
+            "printedName": "make()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SignerKeyProvider",
+                "printedName": "Signer.SignerKeyProvider",
+                "usr": "c:@M@Signer@objc(pl)SignerKeyProvider"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Signer@objc(cs)SignerKeyProviderAssembly(im)make",
+            "mangledName": "$s6Signer0A19KeyProviderAssemblyC4makeAA0abC0_pyF",
+            "moduleName": "Signer",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SignerKeyProviderAssembly",
+                "printedName": "Signer.SignerKeyProviderAssembly",
+                "usr": "c:@M@Signer@objc(cs)SignerKeyProviderAssembly"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Signer@objc(cs)SignerKeyProviderAssembly(im)init",
+            "mangledName": "$s6Signer0A19KeyProviderAssemblyCACycfc",
+            "moduleName": "Signer",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Signer@objc(cs)SignerKeyProviderAssembly",
+        "mangledName": "$s6Signer0A19KeyProviderAssemblyC",
+        "moduleName": "Signer",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SignerKeyProviderImp",
+        "printedName": "SignerKeyProviderImp",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SignerKeyProviderImp",
+                "printedName": "Signer.SignerKeyProviderImp",
+                "usr": "c:@M@Signer@objc(cs)SignerKeyProviderImp"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Signer@objc(cs)SignerKeyProviderImp(im)init",
+            "mangledName": "$s6Signer0A14KeyProviderImpCACycfc",
+            "moduleName": "Signer",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "publicKey",
+            "printedName": "publicKey()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@Signer@objc(cs)SignerKeyProviderImp(im)publicKey",
+            "mangledName": "$s6Signer0A14KeyProviderImpC06publicB010Foundation4DataVSgyF",
+            "moduleName": "Signer",
+            "objc_name": "publicKey",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "publicKeyAlgorithmName",
+            "printedName": "publicKeyAlgorithmName()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@Signer@objc(cs)SignerKeyProviderImp(im)publicKeyAlgorithmName",
+            "mangledName": "$s6Signer0A14KeyProviderImpC06publicB13AlgorithmNameSSyF",
+            "moduleName": "Signer",
+            "objc_name": "publicKeyAlgorithmName",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "publicKeyAlgorithmNameSHA256HashBase64String",
+            "printedName": "publicKeyAlgorithmNameSHA256HashBase64String()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@Signer@objc(cs)SignerKeyProviderImp(im)publicKeyAlgorithmNameSHA256HashBase64String",
+            "mangledName": "$s6Signer0A14KeyProviderImpC06publicB35AlgorithmNameSHA256HashBase64StringSSSgyF",
+            "moduleName": "Signer",
+            "objc_name": "publicKeyAlgorithmNameSHA256HashBase64String",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "keyPair",
+            "printedName": "keyPair()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Signer.SignerKeyPair?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SignerKeyPair",
+                    "printedName": "Signer.SignerKeyPair",
+                    "usr": "c:@M@Signer@objc(cs)SignerKeyPair"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@Signer@objc(cs)SignerKeyProviderImp(im)keyPair",
+            "mangledName": "$s6Signer0A14KeyProviderImpC7keyPairAA0abF0CSgyF",
+            "moduleName": "Signer",
+            "objc_name": "keyPair",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Signer@objc(cs)SignerKeyProviderImp",
+        "mangledName": "$s6Signer0A14KeyProviderImpC",
+        "moduleName": "Signer",
+        "objc_name": "SignerKeyProviderImp",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "SignerKeyProvider",
+            "printedName": "SignerKeyProvider",
+            "usr": "c:@M@Signer@objc(pl)SignerKeyProvider",
+            "mangledName": "$s6Signer0A11KeyProviderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Signer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SignerKey",
+        "printedName": "SignerKey",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "keyData",
+            "printedName": "keyData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Signer0A3KeyC7keyData10Foundation0D0Vvp",
+            "mangledName": "$s6Signer0A3KeyC7keyData10Foundation0D0Vvp",
+            "moduleName": "Signer",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Signer0A3KeyC7keyData10Foundation0D0Vvg",
+                "mangledName": "$s6Signer0A3KeyC7keyData10Foundation0D0Vvg",
+                "moduleName": "Signer",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "keyReferenceInKeychain",
+            "printedName": "keyReferenceInKeychain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SecKey",
+                "printedName": "Security.SecKey",
+                "usr": "c:@T@SecKeyRef"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Signer0A3KeyC22keyReferenceInKeychainSo03SecB3Refavp",
+            "mangledName": "$s6Signer0A3KeyC22keyReferenceInKeychainSo03SecB3Refavp",
+            "moduleName": "Signer",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SecKey",
+                    "printedName": "Security.SecKey",
+                    "usr": "c:@T@SecKeyRef"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Signer0A3KeyC22keyReferenceInKeychainSo03SecB3Refavg",
+                "mangledName": "$s6Signer0A3KeyC22keyReferenceInKeychainSo03SecB3Refavg",
+                "moduleName": "Signer",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6Signer0A3KeyC",
+        "mangledName": "$s6Signer0A3KeyC",
+        "moduleName": "Signer",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Signer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SignerFactory",
+        "printedName": "SignerFactory",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SignerFactory",
+                "printedName": "Signer.SignerFactory",
+                "usr": "s:6Signer0A7FactoryC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6Signer0A7FactoryCACycfc",
+            "mangledName": "$s6Signer0A7FactoryCACycfc",
+            "moduleName": "Signer",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeSHA256Signer",
+            "printedName": "makeSHA256Signer()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SignerProtocol",
+                "printedName": "Signer.SignerProtocol",
+                "usr": "c:@M@Signer@objc(pl)SignerProtocol"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Signer0A7FactoryC010makeSHA256A0AA0A8Protocol_pyF",
+            "mangledName": "$s6Signer0A7FactoryC010makeSHA256A0AA0A8Protocol_pyF",
+            "moduleName": "Signer",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeSHA1Signer",
+            "printedName": "makeSHA1Signer()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SignerProtocol",
+                "printedName": "Signer.SignerProtocol",
+                "usr": "c:@M@Signer@objc(pl)SignerProtocol"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Signer0A7FactoryC08makeSHA1A0AA0A8Protocol_pyF",
+            "mangledName": "$s6Signer0A7FactoryC08makeSHA1A0AA0A8Protocol_pyF",
+            "moduleName": "Signer",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6Signer0A7FactoryC",
+        "mangledName": "$s6Signer0A7FactoryC",
+        "moduleName": "Signer",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Signer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "Signer"
+      },
+      {
+        "kind": "Import",
+        "name": "Security.SecKey",
+        "printedName": "Security.SecKey",
+        "declKind": "Import",
+        "moduleName": "Signer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Signer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Signer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SignerProtocol",
+        "printedName": "SignerProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "signature",
+            "printedName": "signature(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Signer@objc(pl)SignerProtocol(im)signatureFor:",
+            "mangledName": "$s6Signer0A8ProtocolP9signature3for10Foundation4DataVSgAH_tF",
+            "moduleName": "Signer",
+            "genericSig": "<τ_0_0 where τ_0_0 : Signer.SignerProtocol>",
+            "sugared_genericSig": "<Self where Self : Signer.SignerProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@Signer@objc(pl)SignerProtocol",
+        "mangledName": "$s6Signer0A8ProtocolP",
+        "moduleName": "Signer",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "objc_name": "SignerProtocol",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SignerKeyProvider",
+        "printedName": "SignerKeyProvider",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "publicKey",
+            "printedName": "publicKey()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Signer@objc(pl)SignerKeyProvider(im)publicKey",
+            "mangledName": "$s6Signer0A11KeyProviderP06publicB010Foundation4DataVSgyF",
+            "moduleName": "Signer",
+            "genericSig": "<τ_0_0 where τ_0_0 : Signer.SignerKeyProvider>",
+            "sugared_genericSig": "<Self where Self : Signer.SignerKeyProvider>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "publicKeyAlgorithmName",
+            "printedName": "publicKeyAlgorithmName()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Signer@objc(pl)SignerKeyProvider(im)publicKeyAlgorithmName",
+            "mangledName": "$s6Signer0A11KeyProviderP06publicB13AlgorithmNameSSyF",
+            "moduleName": "Signer",
+            "genericSig": "<τ_0_0 where τ_0_0 : Signer.SignerKeyProvider>",
+            "sugared_genericSig": "<Self where Self : Signer.SignerKeyProvider>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "publicKeyAlgorithmNameSHA256HashBase64String",
+            "printedName": "publicKeyAlgorithmNameSHA256HashBase64String()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Signer@objc(pl)SignerKeyProvider(im)publicKeyAlgorithmNameSHA256HashBase64String",
+            "mangledName": "$s6Signer0A11KeyProviderP06publicB35AlgorithmNameSHA256HashBase64StringSSSgyF",
+            "moduleName": "Signer",
+            "genericSig": "<τ_0_0 where τ_0_0 : Signer.SignerKeyProvider>",
+            "sugared_genericSig": "<Self where Self : Signer.SignerKeyProvider>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "keyPair",
+            "printedName": "keyPair()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Signer.SignerKeyPair?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SignerKeyPair",
+                    "printedName": "Signer.SignerKeyPair",
+                    "usr": "c:@M@Signer@objc(cs)SignerKeyPair"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Signer@objc(pl)SignerKeyProvider(im)keyPair",
+            "mangledName": "$s6Signer0A11KeyProviderP7keyPairAA0abE0CSgyF",
+            "moduleName": "Signer",
+            "genericSig": "<τ_0_0 where τ_0_0 : Signer.SignerKeyProvider>",
+            "sugared_genericSig": "<Self where Self : Signer.SignerKeyProvider>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@Signer@objc(pl)SignerKeyProvider",
+        "mangledName": "$s6Signer0A11KeyProviderP",
+        "moduleName": "Signer",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "objc_name": "SignerKeyProvider",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Signer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SignerKeyStoreImp",
+        "printedName": "SignerKeyStoreImp",
+        "declKind": "Class",
+        "usr": "s:6Signer0A11KeyStoreImpC",
+        "mangledName": "$s6Signer0A11KeyStoreImpC",
+        "moduleName": "Signer",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Signer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SignerKeyPair",
+        "printedName": "SignerKeyPair",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "publicKey",
+            "printedName": "publicKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SignerKey",
+                "printedName": "Signer.SignerKey",
+                "usr": "s:6Signer0A3KeyC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Signer0A7KeyPairC06publicB0AA0aB0Cvp",
+            "mangledName": "$s6Signer0A7KeyPairC06publicB0AA0aB0Cvp",
+            "moduleName": "Signer",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SignerKey",
+                    "printedName": "Signer.SignerKey",
+                    "usr": "s:6Signer0A3KeyC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Signer0A7KeyPairC06publicB0AA0aB0Cvg",
+                "mangledName": "$s6Signer0A7KeyPairC06publicB0AA0aB0Cvg",
+                "moduleName": "Signer",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "privateKey",
+            "printedName": "privateKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SignerKey",
+                "printedName": "Signer.SignerKey",
+                "usr": "s:6Signer0A3KeyC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Signer0A7KeyPairC07privateB0AA0aB0Cvp",
+            "mangledName": "$s6Signer0A7KeyPairC07privateB0AA0aB0Cvp",
+            "moduleName": "Signer",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SignerKey",
+                    "printedName": "Signer.SignerKey",
+                    "usr": "s:6Signer0A3KeyC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Signer0A7KeyPairC07privateB0AA0aB0Cvg",
+                "mangledName": "$s6Signer0A7KeyPairC07privateB0AA0aB0Cvg",
+                "moduleName": "Signer",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(publicKeyData:publicKeyReferenceInKeychain:privateKeyData:privateKeyReferenceInKeychain:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SignerKeyPair",
+                "printedName": "Signer.SignerKeyPair",
+                "usr": "c:@M@Signer@objc(cs)SignerKeyPair"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SecKey",
+                "printedName": "Security.SecKey",
+                "usr": "c:@T@SecKeyRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SecKey",
+                "printedName": "Security.SecKey",
+                "usr": "c:@T@SecKeyRef"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Signer@objc(cs)SignerKeyPair(im)initWithPublicKeyData:publicKeyReferenceInKeychain:privateKeyData:privateKeyReferenceInKeychain:",
+            "mangledName": "$s6Signer0A7KeyPairC06publicB4Data0dB19ReferenceInKeychain07privatebE00ibfgH0AC10Foundation0E0V_So03SecB3RefaAjLtcfc",
+            "moduleName": "Signer",
+            "objc_name": "initWithPublicKeyData:publicKeyReferenceInKeychain:privateKeyData:privateKeyReferenceInKeychain:",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(publicKey:privateKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SignerKeyPair",
+                "printedName": "Signer.SignerKeyPair",
+                "usr": "c:@M@Signer@objc(cs)SignerKeyPair"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SignerKey",
+                "printedName": "Signer.SignerKey",
+                "usr": "s:6Signer0A3KeyC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SignerKey",
+                "printedName": "Signer.SignerKey",
+                "usr": "s:6Signer0A3KeyC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6Signer0A7KeyPairC06publicB007privateB0AcA0aB0C_AGtcfc",
+            "mangledName": "$s6Signer0A7KeyPairC06publicB007privateB0AcA0aB0C_AGtcfc",
+            "moduleName": "Signer",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeWith",
+            "printedName": "makeWith(publicKeyData:publicKeyReferenceInKeychain:privateKeyData:privateKeyReferenceInKeychain:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Signer.SignerKeyPair?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SignerKeyPair",
+                    "printedName": "Signer.SignerKeyPair",
+                    "usr": "c:@M@Signer@objc(cs)SignerKeyPair"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Security.SecKey?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SecKey",
+                    "printedName": "Security.SecKey",
+                    "usr": "c:@T@SecKeyRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Security.SecKey?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SecKey",
+                    "printedName": "Security.SecKey",
+                    "usr": "c:@T@SecKeyRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Signer@objc(cs)SignerKeyPair(cm)makeWithPublicKeyData:publicKeyReferenceInKeychain:privateKeyData:privateKeyReferenceInKeychain:",
+            "mangledName": "$s6Signer0A7KeyPairC8makeWith06publicB4Data0fB19ReferenceInKeychain07privatebG00kbhiJ0ACSg10Foundation0G0VSg_So03SecB3RefaSgAmPtFZ",
+            "moduleName": "Signer",
+            "static": true,
+            "objc_name": "makeWithPublicKeyData:publicKeyReferenceInKeychain:privateKeyData:privateKeyReferenceInKeychain:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SignerKeyPair",
+                "printedName": "Signer.SignerKeyPair",
+                "usr": "c:@M@Signer@objc(cs)SignerKeyPair"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Signer@objc(cs)SignerKeyPair(im)init",
+            "mangledName": "$s6Signer0A7KeyPairCACycfc",
+            "moduleName": "Signer",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Signer@objc(cs)SignerKeyPair",
+        "mangledName": "$s6Signer0A7KeyPairC",
+        "moduleName": "Signer",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Signer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/blinov\/Desktop\/Signer\/Signer\/Signer\/SignerPublicKeyAlgorithm.swift",
+      "kind": "StringLiteral",
+      "offset": 205,
+      "length": 9,
+      "value": "\"RSA 512\""
+    },
+    {
+      "filePath": "\/Users\/blinov\/Desktop\/Signer\/Signer\/Signer\/SignerPublicKeyAlgorithm.swift",
+      "kind": "StringLiteral",
+      "offset": 234,
+      "length": 10,
+      "value": "\"RSA 2048\""
+    },
+    {
+      "filePath": "\/Users\/blinov\/Desktop\/Signer\/Signer\/Signer\/SignerPublicKeyAlgorithm.swift",
+      "kind": "StringLiteral",
+      "offset": 205,
+      "length": 9,
+      "value": "\"RSA 512\""
+    },
+    {
+      "filePath": "\/Users\/blinov\/Desktop\/Signer\/Signer\/Signer\/SignerPublicKeyAlgorithm.swift",
+      "kind": "StringLiteral",
+      "offset": 234,
+      "length": 10,
+      "value": "\"RSA 2048\""
+    },
+    {
+      "filePath": "\/Users\/blinov\/Desktop\/Signer\/Signer\/DTO\/SignerKeyPair.swift",
+      "kind": "StringLiteral",
+      "offset": 194,
+      "length": 13,
+      "value": "\"Signer.SignerKeyPair\""
+    }
+  ]
+}
